@@ -18,6 +18,9 @@ jobs:
       with:
         node-version: '18'
 
+    - name: Install Jest globally
+      run: npm install -g jest
+       
     - name: Install dependencies
       run: npm install
 
